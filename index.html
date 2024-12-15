@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зодиак и Возраст</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Введите вашу дату рождения</h1>
+        <input type="date" id="birthdate" />
+        <button onclick="calculate()">Рассчитать</button>
+        
+        <div class="info-block" id="info-block">
+            <table>
+                <tr>
+                    <th>Знак зодиака</th>
+                    <td class="highlight"><p id="zodiac"></td>
+                </tr>
+                <tr>
+                    <th>Ваш возраст</th>
+                    <td><p id="age"></p></td>
+                </tr>
+                <tr>
+                    <th>Следующий день рождения</th>
+                    <td class="highlight"><p id="nextBirthday"></p></td>
+                </tr>
+                <tr>
+                    <th>До следующего дня рождения осталось</th>
+                    <td><p id="daysToNextBirthday"></p></td>
+                </tr>
+                <tr>
+                    <th>Год вашего китайского животного</th>
+                    <td class="highlight"><p id="chineseZodiac"></p></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        function showCard() {
+            
+        }
+    </script>
+</body>
+</html>
